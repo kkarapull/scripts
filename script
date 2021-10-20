@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -rp 'Your Login: ' login_name
+echo Your name is $login_name
+read -rsp 'Your password: ' password && echo
+echo Your password is $password
+
+
